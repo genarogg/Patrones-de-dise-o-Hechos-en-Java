@@ -3,11 +3,14 @@
 **Patrones Creacionales:**
 
 - Builder - EDTeam
-- Factoroy - EDTeam
+- Factory - EDTeam
 - Prototipe - EDTeam
 - Singleton - EDTeam
+- Abstract Factory - EDTeam
 
 **Patrones Estructurales:**
+
+- Adapter - EDTeam
 
 **Patrones Comportamiento:**
 
