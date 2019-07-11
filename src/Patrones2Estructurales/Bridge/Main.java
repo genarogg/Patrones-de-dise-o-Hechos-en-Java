@@ -2,6 +2,12 @@ package Patrones2Estructurales.Bridge;
 
 /**
  * @author Genarogg
+ * 
+ * El patrón Bridge, también conocido como Handle/Body, 
+ * es una técnica usada en programación para desacoplar 
+ * una abstracción de su implementación, de manera que 
+ * ambas puedan ser modificadas independientemente sin 
+ * necesidad de alterar por ello la otra.
  */
 public class Main {
     public static void main (String [] args){
@@ -36,5 +42,5 @@ public class Main {
 	  System.out.println(vinetas.getItem(i));
         }
         
-        
+    }    
 }
