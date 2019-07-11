@@ -11,6 +11,8 @@
 **Patrones Estructurales:**
 
 - Adapter - EDTeam
+- Bridge - EDTeam
+- Composite - EDTeam
 
 **Patrones Comportamiento:**
 
