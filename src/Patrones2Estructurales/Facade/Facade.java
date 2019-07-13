@@ -1,6 +1,5 @@
 package Patrones2Estructurales.Facade;
 
-
 /**
  * @author Genarogg
  */

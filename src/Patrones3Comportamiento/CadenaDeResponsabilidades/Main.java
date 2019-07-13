@@ -1,4 +1,4 @@
-package Patrones2Estructurales.Facade;
+package Patrones3Comportamiento.CadenaDeResponsabilidades;
 
 import javax.swing.JOptionPane;
 
