@@ -4,19 +4,20 @@ import javax.swing.JOptionPane;
 
 /**
  * @author Genarogg
+ * 
+ * Disponemos de un sistema complejo que, al ser muy flexible, 
+ * requiere de la configuración de muchos parámetros para conseguir 
+ * un fin concreto. Por otro lado, nuestro sistema cliente pretende 
+ * utilizar parte de la funcionalidad que el primer sistema ofrece 
+ * pero muchas de las operaciones de configuración son siempre las mismas.
  */
-public class Main {
-    public static void main(String[] args) {
-        Acesor a = new Acesor();
-        Coordinador c = new Coordinador();
-        Gerente g = new Gerente();
-        
-        a.setSucesor(c);
-        c.setSucesor(g);
-        
-        int valor = Integer.parseInt(JOptionPane.showInputDialog
-                    (null, "Introduce el valor del Prestamo", "Prestamo"));
-        
-        a.autorizar(valor);
-    }
+public class Main { 
+    public static void main(String[] args) { 
+        new Main(); 
+    } 
+     
+    public Main(){ 
+        Facade f = new Facade(); 
+        f.imprime(); 
+    } 
 }
