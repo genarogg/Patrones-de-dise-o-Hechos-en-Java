@@ -13,6 +13,15 @@
 - Adapter - EDTeam
 - Bridge - EDTeam
 - Composite - EDTeam
+- Decorator - EDTeam
+- Facade - EDTeam
+- Proxy - EDTeam
 
 **Patrones Comportamiento:**
+
+- CadenaDeResponsabilidades - EDTeam
+- Memento - EDTeam
+- Observador - EDTeam
+- State - EDTeam
+- Template - EDTeam
 
